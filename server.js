@@ -1,6 +1,9 @@
 const express = require('express')
+const { loggerMiddleware } = require('./loggerMiddleware')
 const app = express()
 const port = 3000
+
+app.use(loggerMiddleware)
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
