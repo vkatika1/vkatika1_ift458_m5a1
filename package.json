@@ -1,0 +1,23 @@
+{
+  "name": "vkatika1_ift458_m5a1",
+  "version": "1.0.0",
+  "description": "Module 5 Assignment 1 and Lab 1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkatika1/vkatika1_ift458_m5a1.git"
+  },
+  "author": "vkatika1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vkatika1/vkatika1_ift458_m5a1/issues"
+  },
+  "homepage": "https://github.com/vkatika1/vkatika1_ift458_m5a1#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
